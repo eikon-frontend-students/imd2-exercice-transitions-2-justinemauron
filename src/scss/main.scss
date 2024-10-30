@@ -114,4 +114,20 @@ video {
 .marker .product-cart:hover {
   background-color: var(--blue);
 }
+
+.pencil .product-cart {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, background-color 0.3s ease-in-out,
+    transform 0.5s ease-in-out;
+  transform: translateY(-80px);
+}
+
+.pencil:hover .product-cart {
+  opacity: 100;
+  transform: translateY(0);
+}
+
+.pencil .product-cart:hover {
+  background-color: var(--blue);
+}
 // ---------------------------------------------
