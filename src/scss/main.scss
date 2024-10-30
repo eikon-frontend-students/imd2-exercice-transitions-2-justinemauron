@@ -154,4 +154,17 @@ video {
 .scissors:hover .product-price {
   color: var(--gray);
 }
+
+.sketchbook .product-image img {
+  transition: transform 0.5s;
+}
+
+.sketchbook:hover .product-image img {
+  transform: scale(1.2);
+}
+
+.product-image {
+  overflow: hidden;
+}
+
 // ---------------------------------------------
