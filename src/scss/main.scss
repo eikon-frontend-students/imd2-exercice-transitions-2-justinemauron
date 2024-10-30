@@ -130,4 +130,28 @@ video {
 .pencil .product-cart:hover {
   background-color: var(--blue);
 }
+
+.scissors {
+  transition: 0.5s ease-in-out;
+}
+
+.scissors:hover {
+  background-color: var(--blue);
+}
+
+.product-title .scissors {
+  transition: color 0.5s ease-in-out;
+}
+
+.scissors:hover .product-title {
+  color: var(--white);
+}
+
+.product-price .scissors {
+  transition: color 0.5s ease-in-out;
+}
+
+.scissors:hover .product-price {
+  color: var(--gray);
+}
 // ---------------------------------------------
