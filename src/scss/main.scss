@@ -167,4 +167,13 @@ video {
   overflow: hidden;
 }
 
+.glue .product-image img {
+  filter: blur(4px);
+  transition: filter 0.5s;
+}
+
+.glue:hover .product-image img {
+  filter: blur(0);
+}
+
 // ---------------------------------------------
